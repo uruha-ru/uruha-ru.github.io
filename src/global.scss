@@ -1,0 +1,17 @@
+@import '../node_modules/purecss/build/base.css';
+@import '../node_modules/purecss/build/menus.css';
+@import '../node_modules/purecss/build/grids.css';
+@import '../node_modules/purecss/build/grids-responsive.css';
+
+:root {
+    --theme-color: #19E8C9;
+}
+
+main {
+    padding: 15px;
+}
+
+body {
+    border-left: 2px solid var(--theme-color);
+    min-height: 100vh;
+}
